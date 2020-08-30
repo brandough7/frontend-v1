@@ -4,7 +4,7 @@
 
 	<b-container class="py-5">
 		<b-row align-h="center">
-			<b-col cols="4">
+			<b-col cols="12" md="4">
 				<b-form>
 					<b-form-group label-for="lastname" label="Last name">
 						<b-form-input id="lastname"  placeholder="Last name" size="sm"></b-form-input>
@@ -35,7 +35,7 @@
 					<b-button type="submit" variant="info" align="left">Submit</b-button>
 				</b-form>
 			</b-col>
-			<b-col cols="4" class="details py-3">
+			<b-col cols="12" md="4" class="details py-3">
 				<p class="text"><b-icon icon="globe" class="icons"></b-icon> 123 XYZ, Cebu City Philippines</p>
 				<p class="text"><b-icon icon="telephone" class="icons"></b-icon> (032)1234567</p>
 				<p class="text"><b-icon icon="envelope" class="icons"></b-icon> xyz@xyzcomp.com.ph</p>
